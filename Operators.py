@@ -105,3 +105,93 @@
 # for i, name in enumerate(names, start=1):
 #     print(i, name)
 
+# nums = [10,20,30,40]
+# nums.remove(20)
+# nums.pop(1)
+# print(nums)
+
+# food = 'pizza'
+# food.replace('z','s')
+# print(food)
+
+# x = [1,2,3,4,5]
+# for i in x:
+#     if i == 3:
+#         x.remove(i)
+# print(x)
+
+
+# fruits = ['apple','banana','mango','kiwi','grape']
+# for f in fruits:
+#     if 'a' in f:
+#         fruits.remove(f)
+
+# print(fruits)
+
+# x = 0
+# for i in range(4):
+#     if i % 2 == 0:
+#         x+=i
+# print(x)
+
+# nums = [1,2,3,4,5,5,4,3]
+# squares = [i*2 for i in nums]
+# print(squares)
+
+# dic = {i for i in nums}
+# print(dic)
+
+# comp = {i : i+1 for i in nums }
+# print(comp)
+
+# gen = (x*2 for x in nums)
+# print (list(gen))
+
+
+# matrix = [[1, 2, 3], [4, 5, 6]]
+
+# flat = []
+# for row in matrix:
+#     for num in row:
+#         flat.append(num)
+# print(flat)
+
+# matrix = [[1, 2, 3], [4, 5, 6]]
+
+# flat = [num for row in matrix for num in row]
+
+# print(flat)
+
+
+# total = lambda a,b:a+b
+# print(total(3,5))
+
+# def w(name ="guest"):
+#     print("hello", name)
+# w("shahala")
+
+
+# def key(name,age):
+#     print(name,age)
+
+# key(name="shahala",age=22)
+
+# def val(name,age):
+#     print(f"my name is {name} and my age is {age}" )
+# val("shahala",22)
+
+# def H(*args):
+#     print(sum(args))
+# H(1,2,3,4)
+
+# def show(*names):
+#     for n in names:
+#         print(n)
+
+# show("Ali", "Fathima", "John")
+
+
+def student(**kwargs):
+    print(kwargs)
+
+student(name= "shahala", age= 22)
