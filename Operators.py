@@ -243,5 +243,44 @@
 # y = str(x)
 # print(type(y))
 
+# num = 3
 
+# if num%2 ==0:
+#     print("even")
+# else:
+#     print("odd")
+
+# num = 2
+# result = "even" if num%2==0 else "odd"
+# print(result)
+
+
+# num = 2
+
+# match num:
+#     case 1:
+#         print("One")
+#     case 2:
+#         print("Two")
+#     case _:
+#         print("Other")
+
+# day = 'sat'
+# match day:
+#     case 'mon' | 'tue' | 'wed' | 'thu' | 'fri':
+#         print("weekday")
+#     case 'sat' | 'sun':
+#         print('weekend')
+#     case _:
+#         print('invalid day')
+
+num = 15
+
+match num:
+    case n if n > 10:
+        print("Greater than 10")
+    case n if n > 5:
+        print("Greater than 5")
+    case _:
+        print("Small number")
 
