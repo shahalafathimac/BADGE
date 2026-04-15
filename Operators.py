@@ -191,7 +191,57 @@
 # show("Ali", "Fathima", "John")
 
 
-def student(**kwargs):
-    print(kwargs)
+# def student(**kwargs):
+#     print(kwargs)
 
-student(name= "shahala", age= 22)
+# student(name= "shahala", age= 22)
+
+
+# class Math:
+#     @staticmethod
+#     def add(a,b):
+#         return a+b
+# print(Math.add(3,5))
+
+# class Student:
+#     school = "ABC school"
+
+#     @classmethod
+#     def get_school(cls):
+#         return cls.school
+    
+# print(Student.get_school())
+
+# class person:
+#     def __init__(self, name):
+#         self._name = name
+
+#     @property
+#     def name(self):
+#         return self._name
+    
+# p = person("fathima")
+# print(p.name)
+
+
+# x = 10
+# y = x
+
+# print(id(x))
+# print(id(y))
+
+# a = b = [1, 2, 3]
+
+# print(id(a))
+# print(id(b))
+
+# x = "123"
+# y = int(x)
+# print(type(y))
+
+# x = 10
+# y = str(x)
+# print(type(y))
+
+
+
