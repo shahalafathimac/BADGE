@@ -274,13 +274,95 @@
 #     case _:
 #         print('invalid day')
 
-num = 15
+# num = 15
 
-match num:
-    case n if n > 10:
-        print("Greater than 10")
-    case n if n > 5:
-        print("Greater than 5")
-    case _:
-        print("Small number")
+# match num:
+#     case n if n > 10:
+#         print("Greater than 10")
+#     case n if n > 5:
+#         print("Greater than 5")
+#     case _:
+#         print("Small number")
+
+# numbers = [1,2,3,4,5]
+# for n in numbers:
+#     print(n)
+
+# i = 0
+
+# while i < 5:
+#     print(i)
+#     i +=1
+
+# for n in range(1,11):
+#     print(n)
+
+
+lis = [1,2,2,3,3,3,4]
+# print(list(set(lis)))
+
+# unique = []
+# for n in lis:
+#     if n not in unique:
+#         unique.append(n)
+# print(unique)
+
+# lis =[1,2,3]
+# lis.append(4)
+# print(lis)
+
+# lis = [1,2,3]
+# lis.extend([4,5])
+# print(lis)
+
+# lis = [x**2 for x in range(1,11)]
+# print(lis)
+
+# lis = [2,4,5,1,6]
+# u =lis[::-1]
+# print(u)
+
+# set1 = {1,2,3,4}
+# set2 = {4,5,6}
+# set3 = set1 & set2
+# print(set3)
+# set3 =set1.intersection(set2)
+# print(set3)
+
+# dic1 ={
+#     "name":"shahala",
+#     "age":22
+# }
+# dic2 ={
+#     "place":"palazhi",
+
+# }
+# dic1.update(dic2)
+# print(dic1)
+
+# dic ={"a":1,"b":2}
+# dic.setdefault("c",3)
+# print(dic)
+
+# text = "shahala"
+# if text == text[::-1]:
+#     print("palindrome")
+# else:
+#     print("not palindrome")
+
+
+# text = "shahala"
+# print(text[::-1])
+
+# text = "my name is shahala"
+# words = text.split()
+# reversed_words = [word[::-1] for word in words]
+# result = " ".join(reversed_words)
+# print(result)
+
+
+
+
+
+
 
