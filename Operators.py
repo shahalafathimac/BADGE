@@ -298,7 +298,7 @@
 #     print(n)
 
 
-lis = [1,2,2,3,3,3,4]
+# lis = [1,2,2,3,3,3,4]
 # print(list(set(lis)))
 
 # unique = []
@@ -359,6 +359,73 @@ lis = [1,2,2,3,3,3,4]
 # reversed_words = [word[::-1] for word in words]
 # result = " ".join(reversed_words)
 # print(result)
+
+
+# words = text.split()
+# reversed_sentence = " ".join(words[::-1])
+# print(reversed_sentence)
+
+# def factorial(n):
+#     if n ==0 or n==1:
+#         return 1
+#     else:
+#         return n* factorial(n-1)
+# num = 5
+# print(factorial(num))
+
+# print((lambda x: x * 2)(5))
+
+# import random
+
+# num = random.randint(1, 10)
+# print(num)
+
+# import random
+
+# items = ['apple', 'banana', 'cherry']
+
+# choice = random.choice(items)
+# print(choice)
+
+
+# def my_decorator(f):
+#     def wrapper():
+#         s = say_hello()
+#         return s.upper()
+#     return wrapper
+# def say_hello():
+#     return "Hello!"
+
+# say_he = my_decorator(say_hello)
+# print(say_he())
+
+
+# def log_decorator(func):
+#     def wrapper(*args, **kwargs):
+#         print(f"Calling function: {func.__name__}")
+#         print(f"Arguments: {args} {kwargs}")
+        
+#         result = func(*args, **kwargs)
+        
+#         print(f"Function {func.__name__} returned: {result}")
+#         return result
+#     return wrapper
+
+# @log_decorator
+# def add(a, b):
+#     return a + b
+
+# add(3, 4)
+
+
+# def role_required(role):
+#     def decorator(func):
+#         def wrapper(user, *args, **kwargs):
+#             if user.get("is_logged_in") and user.get("role") == role:
+#                 return func(user, *args, **kwargs)
+#             print("acess denied")
+#         return wrapper
+#     return decorator
 
 
 
