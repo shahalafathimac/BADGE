@@ -81,23 +81,89 @@
 # print(name("shahala"))
 
 
-def greet_decorator(func):
-    def wrapper(value):
-        if isinstance(value, int):
-            return "hello"
-        elif isinstance(value, str):
-            return "hi"
-        else:
-            return "invalid type"
-    return wrapper
+# def greet_decorator(func):
+#     def wrapper(value):
+#         if isinstance(value, int):
+#             return "hello"
+#         elif isinstance(value, str):
+#             return "hi"
+#         else:
+#             return "invalid type"
+#     return wrapper
 
 
-@greet_decorator
-def greet(x):
-    return x
+# @greet_decorator
+# def greet(x):
+#     return x
 
 
-# Test
-print(greet(10))      # hello
-print(greet("abc"))   # hi
-print(greet(3.5))     # invalid type
+# # Test
+# print(greet(10))      # hello
+# print(greet("abc"))   # hi
+# print(greet(3.5))     # invalid type
+
+
+# def decorator(func):
+#     def wrapper(value):
+#         if isinstance(value, int):
+#             return "hello"
+#         elif isinstance(value, str):
+#             return "hi"
+#         else:
+#             return "invalid type"
+#     return wrapper
+
+
+
+
+# @decorator
+# def name(x):
+#     return x
+
+# print(name("h"))
+
+
+# def decorator(func):
+#     def wrapper(*args, **kwargs):
+#         print("function started")
+#         result = func(*args, **kwargs)
+#         print("function ended")
+#         return result
+#     return wrapper
+
+
+# @decorator
+# def name():
+#     print("hello")
+
+# name()
+
+# def decorator(func):
+#     def wrapper(*args,**kwargs):
+#         result = func(*args, **kwargs)
+#         return result.upper()
+#     return wrapper
+        
+        
+
+# @decorator
+# def name(x):
+#     return x
+
+# print(name("shahala"))
+
+
+# def decorator(func):
+#     def wrapper(value):
+#         if value%2==0:
+#             return "even"
+#         else:
+#             return "odd"
+#     return wrapper
+
+
+# @decorator
+# def predict(value):
+#     return value
+# print(predict(4))
+        
