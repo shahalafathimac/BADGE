@@ -69,13 +69,35 @@
 # for name, mark in zip(names, marks):
 #     print(name, mark)
 
-def decorator(func):
-    def wrapper(nam):
-        return nam.upper()
+# def decorator(func):
+#     def wrapper(nam):
+#         return nam.upper()
+#     return wrapper
+
+# @decorator
+# def name(h):
+#     return h
+
+# print(name("shahala"))
+
+
+def greet_decorator(func):
+    def wrapper(value):
+        if isinstance(value, int):
+            return "hello"
+        elif isinstance(value, str):
+            return "hi"
+        else:
+            return "invalid type"
     return wrapper
 
-@decorator
-def name(h):
-    return h
 
-print(name("shahala"))
+@greet_decorator
+def greet(x):
+    return x
+
+
+# Test
+print(greet(10))      # hello
+print(greet("abc"))   # hi
+print(greet(3.5))     # invalid type
