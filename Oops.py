@@ -213,15 +213,41 @@
 # print(x)
 
 
-import copy
+# import copy
 
-original = [[1, 2], {'a': [3, 4]}]
-deep = copy.deepcopy(original)
+# original = [[1, 2], {'a': [3, 4]}]
+# deep = copy.deepcopy(original)
 
-deep[0].append(99)
-deep[1]['a'].append(99)
-print(deep)
-print(original)
+# deep[0].append(99)
+# deep[1]['a'].append(99)
+# print(deep)
+# print(original)
+
+
+# class Student:
+#     def __init__(self,marks):
+#         self.marks = marks
+#     def __add__(self, other):
+#         return self.marks + other.marks
+    
+# s1 = Student(50)
+# s2 = Student(60)
+
+# print(s1+s2)
+
+class Student:
+    def __init__(self, marks):
+        self.marks = marks
+
+    def __add__(self,other):
+        return self.marks + other.marks
+    
+    def __radd__(self,other):
+        return other + self.marks
+    
+s1 = Student(50)
+print(10+s1)
+
 
 
         
