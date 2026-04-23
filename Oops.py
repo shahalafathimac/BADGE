@@ -252,10 +252,58 @@
 # if (n :=10)>5:
 #     print(n)
 
-age = 20
-store = "adult" if age >= 18 else "minor"
-print(store)
+# age = 20
+# store = "adult" if age >= 18 else "minor"
+# print(store)
 
+
+# items = [1,2,3]
+# target = 4
+# for item in items:
+#     if item == target:
+#         print("Found!")
+#         break
+# else:
+#     print("Not found!")
+
+
+# names = ['apple','banana','orange']
+# for keys, values in enumerate(names):
+#     print(keys, values)
+
+# names = ['apple','orange','banana']
+# refers = ['a','b','c']
+# num = zip(names, refers)
+# print(list(num))
+
+# from itertools import zip_longest
+# lis = [1,2,3,4]
+# lis1 = [6,7,2]
+# result = list(zip_longest(lis,lis1))
+# print(result)
+
+# def outer():
+#     x = 10
+
+#     def inner():
+#         print(x)
+
+#     return inner
+# f =outer()
+# f()
+
+
+# class Student:
+#     count =0 
+
+#     def __init__(self):
+#         Student.count+=1
+
+#         @classmethod
+#         def get_count(cls):
+#             return cls.count
+        
+# print(Student.get_count())
 
 
         
