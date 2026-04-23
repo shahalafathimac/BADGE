@@ -166,4 +166,62 @@
 # def predict(value):
 #     return value
 # print(predict(4))
+
+# def decorator(func):
+#     def wrapper(*args,**kwargs):
+#         result = func(*args,**kwargs)
+#         return "hello "+ result
+#     return wrapper
+
+# @decorator
+# def name(value):
+#     return value
+
+# print(name("shahala"))
+
+# y = 1008
+# x = 1008
+# print(x is y)
+
+# a ="hello"
+# b = "hello"
+# print(a is b)
+
+# a = "hello world"
+# b = "hello vorld"
+# print(a is b)
+
+# a = 10
+# print(hash(a))
+
+
+# def append_to(item, lst=[]):  
+#     lst.append(item)
+#     return lst
+
+# print(append_to(1) )
+# print(append_to(2) )
+
+
+# x = [[1, 2], [3, 4]]
+# y = x.copy()   
+
+# y.append([5, 6])  
+# y[0].append(99)
+# print(y)
+# x.append([3,6])
+# print(x)
+
+
+import copy
+
+original = [[1, 2], {'a': [3, 4]}]
+deep = copy.deepcopy(original)
+
+deep[0].append(99)
+deep[1]['a'].append(99)
+print(deep)
+print(original)
+
+
         
