@@ -235,18 +235,26 @@
 
 # print(s1+s2)
 
-class Student:
-    def __init__(self, marks):
-        self.marks = marks
+# class Student:
+#     def __init__(self, marks):
+#         self.marks = marks
 
-    def __add__(self,other):
-        return self.marks + other.marks
+#     def __add__(self,other):
+#         return self.marks + other.marks
     
-    def __radd__(self,other):
-        return other + self.marks
+#     def __radd__(self,other):
+#         return other + self.marks
     
-s1 = Student(50)
-print(10+s1)
+# s1 = Student(50)
+# print(10+s1)
+
+
+# if (n :=10)>5:
+#     print(n)
+
+age = 20
+store = "adult" if age >= 18 else "minor"
+print(store)
 
 
 
