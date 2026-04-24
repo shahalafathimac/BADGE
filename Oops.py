@@ -306,4 +306,17 @@
 # print(Student.get_count())
 
 
+# x = 10
+# print(x)
+# del x
+# print(x)
+
+
+names = ["ali", "john", "meera"]
+
+gen = (name.upper() for name in names)
+
+for name in gen:
+    print(name)
+
         
