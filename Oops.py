@@ -312,11 +312,106 @@
 # print(x)
 
 
-names = ["ali", "john", "meera"]
+# names = ["ali", "john", "meera"]
 
-gen = (name.upper() for name in names)
+# gen = (name.upper() for name in names)
 
-for name in gen:
-    print(name)
+# for name in gen:
+#     print(name)
 
-        
+# import copy
+
+# original = {
+#     "name": "Ali",
+#     "marks": [80, 90]
+# }
+
+# shallow = copy.copy(original)
+
+# # Modify nested list
+# shallow["marks"][0] = 100
+
+# print("Original:", original)
+# print("Shallow:", shallow)
+# shallow["name"] = "shahala"
+# print("shallow", shallow)
+# print(original)
+
+# a = "shahala"
+# def name(s):
+#     res = {}
+#     for i in s:
+#         res[i]=res.get(i,0)+1
+#     return res
+
+# print(name(a))
+
+# result = {ch: a.count(ch) for ch in a}
+# print(result)
+
+# s ="inshad"
+# rev = ""
+# i = len(s)-1
+
+# while i>=0:
+#     rev += s[i]
+#     i-=1
+
+# print(rev)
+
+# s = "inshad"
+# b = s[::-1]
+# print(b)
+
+# s = "hello"
+# rev =""
+# for ch in s:
+#     rev = ch + rev
+# print(rev)
+
+
+# s = "madam"
+# print(s == s[::-1])
+
+# print(s =="".join(reversed(s)))
+# def name(s):
+#     freq ={}
+#     for i in s:
+#         freq[i] = freq.get(i,0)+1
+#     return freq
+# print(name(s))
+
+# s = "programming"
+
+# freq = {}
+
+# # Count frequency
+# for ch in s:
+#     if ch in freq:
+#         freq[ch] += 1
+#     else:
+#         freq[ch] = 1
+# print()
+
+
+# s1 = "listen"
+# s2 = "silent"
+
+# print(sorted(s1) == sorted(s2))
+
+# def factorial(n):
+#     if n == 0 or n == 1:   
+#         return 1
+#     return n * factorial(n - 1)
+
+# print(factorial(5)) 
+
+
+
+
+
+
+
+
+
+
