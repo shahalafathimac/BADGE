@@ -536,6 +536,54 @@
 # d.saleem()
 
 
+# class target():
+#     def add(self,a,b,c=0):
+#         return a+b+c
+    
+# c =target()
+# print(c.add(2,4))
+# print(c.add(2,6,5))
+
+
+# class Animal():
+#     def sound(self):
+#         print("same sound")
+
+# class Cat(Animal):
+#     def sound(self):
+#         print("meow")
+
+# class Dog(Animal):
+#     def sound(self):
+#         print("boww")
+
+# a = Animal()
+# c = Cat()
+# d = Dog()
+# c.sound()
+
+
+
+# class Dog(): 
+#     def speak(self):
+#         print("bow")
+
+# class Cat():
+#     def speak(self):
+#         print("meow")
+
+# def name(a):
+#     a.speak() 
+
+# d =Dog()
+# c = Cat()
+
+# name(d)
+# name(c)
+
+
+
+
 
 
 
