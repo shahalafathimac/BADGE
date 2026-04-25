@@ -409,6 +409,137 @@
 
 
 
+# class Parent:
+#     def greet(self):
+#         print("Hello from Parent")
+
+# class Child(Parent):
+#     def welcome(self):
+#         print("Hello from Child")
+
+# c = Child()
+# c.greet()
+# c.welcome()
+
+
+# class Student:
+#     school = "ABC School"  
+
+#     def __init__(self, name):
+#         self.name = name
+
+# s1 = Student("Ali")
+# s2 = Student("Asha")
+
+# print(s1.school)   
+# print(s2.school)   
+# print(s1.name)
+# print(s2.name)
+# Student.school= "def school"
+# print(s1.school)
+
+# class Parent:
+#     def show(self):
+#         print("Parent class")
+
+# class Child(Parent):
+#     def display(self):
+#         print("Child class")
+
+# c = Child()
+# c.show()
+# c.display()
+
+
+
+# class Father():
+#     def saleem(self):
+#         print("hero")
+
+# class Mother():
+#     def rahiyanath(self):
+#         print("heroin")
+
+# class Daughter(Father,Mother):
+#     def shahala(self):
+#         print("queen")
+
+# c = Daughter()
+# c.saleem()
+# c.rahiyanath()
+# c.shahala()
+
+
+# class Father():
+#     def saleem(self):
+#         print("hero")
+
+# class Mother(Father):
+#     def Rahiyanath(self):
+#         print("heroin")
+
+# class Daughter(Mother):
+#     def shahala(self):
+#         print("queen")
+
+# c = Daughter()
+# c.shahala()
+# c.Rahiyanath()
+# c.saleem()
+# d = Mother()
+# d.Rahiyanath()
+# d.saleem()
+
+
+# class Father():
+#     def saleem(self):
+#         print("hero")
+
+# class Daughter(Father):
+#     def shahala(self):
+#         print("queen")
+
+# class Son(Father):
+#     def shahal(self):
+#         print("king")
+
+# c = Son()
+# c.saleem()
+# c.shahal()
+# d = Daughter()
+# d.shahala()
+# d.saleem()
+
+
+# class Father():
+#     def saleem(self):
+#         print("hero")
+
+# class Mother(Father):
+#     def mother(self):
+#         print("heroin")
+
+# class Daughter(Father):
+#     def shahala(self):
+#         print("queen")
+
+# class Son(Mother, Daughter):
+#     def shahal(self):
+#         print("king")
+
+# c = Son()
+# c.shahal()
+# c.mother()
+# c.shahala()
+# d =Daughter()
+# d.shahala()
+# d.saleem()
+
+
+
+
+
+
 
 
 
