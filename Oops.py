@@ -661,6 +661,75 @@
 # c.sound()
 
 
+# nums = [1,2,3]
+# lt = iter(nums)
+# print(next(lt))
+# print(next(lt))
+
+
+# def gen():
+#     yield 1
+#     yield 2
+#     yield 3
+
+# g = gen()
+
+# print(next(g))
+# print(next(g))
+
+# with open("Operators.py","r") as f:
+#     data =f.read()
+#     print(data)
+
+
+
+# import copy
+
+# a = [[1, 2], [3, 4]]
+# b = copy.copy(a)
+
+# b[0][0] = 100
+
+# print(a)  
+# print(b)
+
+
+
+# import copy
+
+# a = [[1, 2], [3, 4]]
+# b = copy.deepcopy(a)
+
+# b[0][0] = 100
+
+# print(a) 
+# print(b) 
+
+
+# def name(x):
+#     x = x+15
+#     print(x)
+
+# a =5
+# name(a)
+# print(a)
+
+
+# def name(x):
+#     x.append(4)
+#     print(x)
+
+# a =[1,2,3]
+# name(a)
+# print(a)
+
+
+
+
+    
+
+
+
 
 
 
