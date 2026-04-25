@@ -582,6 +582,63 @@
 # name(c)
 
 
+# class Student():
+#     def __init__(self):
+#         self.name = "shahala"
+
+# c = Student()
+# print(c.name)
+# c.name ="shahal"
+# print(c.name)
+
+
+# class Student():
+#     def __init__(self):
+#         self.name ="shahala"
+
+# c = Student()
+# print(c.name)
+# c.name = "shahal"
+# print(c.name)
+
+
+
+# class Parent():
+#     def __init__(self):
+#         self._salary = 50000
+
+# class Child(Parent):
+#     def show(self):
+#         print(self._salary)
+
+# c = Child()
+# c.show()
+# c.salary = 20000
+# print(c.salary)
+
+
+# class Bank():
+#     def __init__(self):
+#         self.__balance = 10000
+#     @property
+#     def balance(self):
+#         return self.__balance
+
+# c = Bank()
+# print(c.balance)
+
+
+# class Bank():
+#     def __init__(self):
+#         self.__balance = 2000
+
+#     def bank_balance(self):
+#         print(self.__balance)
+
+# c = Bank()
+# print(c._Bank__balance)
+
+
 
 
 
